@@ -25,16 +25,16 @@ a {
 
 
 .logo{
-  font-size: 35px;
+  font-size: 18px;
   line-height: 1.2;
   margin: 10px 0;
 }
 
 p {
-  margin: 10px 0;
+  margin: 7px 0;
 }
 
-
+/* https://www.youtube.com/watch?v=p0bGHP-PXD4 handig met flexbox*/
 .navbar {
   background-color: #42e9f5;
   color: #fff;
@@ -47,7 +47,7 @@ p {
 
 .navbar a {
   color: #fff;
-  padding: 10px;
+  padding: 0.5px;
   margin: 0 5px;
 }
 
@@ -58,6 +58,43 @@ p {
 .navbar .flex {
   justify-content: space-between;
 }
+
+
+
+
+
+
+
+/* Dit zou bij het hamburger menu moeten horen
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+*/
+
+
+
 
 .container {
   max-width: 1100px;
@@ -78,4 +115,3 @@ p {
   width: 70%;
   height:70%;
   margin: auto;
-}
